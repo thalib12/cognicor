@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <style>
+        .chatbot {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            border-radius: 19px;
+            width: 27%;
+            height: 75%;
+            box-shadow: 0px 0px 15px 8px lightgray;
+        }
+
+        .header {
+             
+            width: 100%;
+            height: 50px;
+            border-bottom: 1px solid lightgray;
+            display: flex;
+
+        }
+
+        i {
+            
+            margin-top: 20px;
+        }
+
+        img {
+            width: 35px;
+            border-radius: 50%;
+            float: left;
+            margin-left: 15px;
+            margin-top: 8px;
+
+        }
+
+        .online {
+            background-color: green;
+            border: 1px solid white;
+            position: relative;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-left: 40px;
+            margin-top: 35px;
+        }
+
+        input {
+            width: 82%;
+            margin-left: 10px;
+            height: 40px;
+            border: none;
+        }
+
+        .border {
+            position: absolute;
+            width: 100%;
+            bottom: 20px;
+            border-top: 1px solid lightgray;
+            border-bottom: 1px solid lightgray;
+        }
+
+        .bluebox {
+            width: 90%;
+            background-color: rgb(57, 57, 117);
+            padding: 1px;
+            border-radius: 6px;
+            margin-left: 4.5%;
+            margin-top: 15px;
+            color: white;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .squarebox {
+            width: 90%;
+            padding: 1px;
+            height: 53%;
+            background-color: rgb(19, 19, 65);
+            margin-left: 4.5%;
+            margin-top: 15px;
+            font-size: 15px;
+            border-radius: 6px;
+            color: white;
+            
+
+
+        }
+        button{
+            border-radius:16px;
+            width: 100px;
+            height: 35px;
+            background:none;
+            border-color: white;
+            color: white;
+
+        }
+        @media only screen and (max-width: 600px) {
+  
+  .chatbot{
+      position: static;
+      width:auto;
+      height:500px;
+      margin-top: 50px;
+  }
+  .border{
+      position:static;
+      margin-top: 20px;
+  }
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="chatbot">
+        <div class="header">
+            <div><img src="./CODERED_B1_portrait_photography-P4a_438x447.jpg.img.jpg" alt="" srcset=""><div class="online"></div></div>
+            <p style="margin-left: 10px;font-weight: bold;">Ask myHR</p>
+            <div style="margin-left:45%;">
+                <i class="fas fa-redo"></i>
+                <i class="fa fa-times" aria-hidden="true" style="margin-left:10px;"></i>
+            </div>
+           
+            
+
+        </div>
+        <div class="bluebox">
+            <p>How do i change my withholdings for my bonus?</p>
+        </div>
+        <div class="squarebox">
+            <div style="margin:20px">
+                <i class="fas fa-chart-pie fa-2x"></i>
+                <h3>Headding</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic vero similique harum, laborum unde quo
+                    dignissimos laborio</p>
+                    <button>Apply</button>
+
+            </div>
+
+        </div>
+        <div class="border">
+            <input type="text" placeholder="Ask something">
+            <i class="fas fa-paper-plane"></i>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
